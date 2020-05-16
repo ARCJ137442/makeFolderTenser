@@ -77,7 +77,6 @@ if __name__ == "__main__":
     value=input("输入文件夹数量（留空以跳过）：")
     if value!='': makeDirVector(root,int(value))
     # 张量
-    makeDirTenser(root,value)
     print("切换到张量模式。。。")
     root=input("输入根路径（默认为tenser）：")
     if root=='':root=r"tenser"
